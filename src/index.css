@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    button {
+        @apply border border-black rounded-xl px-5 py-1;
+    }
+
+    .filter-btn {
+        @apply m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white;
+    }
+}
